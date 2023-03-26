@@ -27,9 +27,9 @@ const Nearbyjobs = () => {
 
       <View style={styles.cardsContainer}>
         {isLoading ? (
-          <ActivityIndicator size="large" color={COLORS.primary}/>
+          <ActivityIndicator size="small" color={COLORS.primary}/>
         ) : error ? (
-          <Text>Something Went Wrong!</Text>
+          <Text style={{color:"#83829A"}}>Something Went Wrong!</Text>
         ) : (
           data?.map((job) => (
             <NearbyJobCard

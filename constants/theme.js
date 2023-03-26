@@ -1,14 +1,16 @@
 const COLORS = {
-  primary: "#312651",
-  secondary: "#444262",
-  tertiary: "#FF7754",
+  primary: "#E8E1BC",//purple
+  secondary: "#BDB397",//light purple
+  tertiary: "#D5CBAE",//orange
 
   gray: "#83829A",
-  gray2: "#C1C0C8",
+  gray2: "#FFF0F0",
 
-  white: "#F3F4F8",
-  lightWhite: "#FAFAFC",
-};
+  white: "#302333",
+  lightWhite: "#120D13",
+
+  card: "#302333"
+}
 
 const FONT = {
   regular: "DMRegular",

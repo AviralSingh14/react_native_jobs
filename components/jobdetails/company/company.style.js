@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
   },
   companyName: {
     fontSize: SIZES.medium - 2,
-    color: COLORS.primary,
+    color: COLORS.secondary,
     fontFamily: FONT.medium,
   },
   locationBox: {
@@ -48,11 +48,11 @@ const styles = StyleSheet.create({
   locationImage: {
     width: 14,
     height: 14,
-    tintColor: COLORS.gray,
+    tintColor: COLORS.gray2,
   },
   locationName: {
     fontSize: SIZES.medium - 2,
-    color: COLORS.gray,
+    color: COLORS.gray2,
     fontFamily: FONT.regular,
     marginLeft: 2,
   },

@@ -4,6 +4,7 @@ import { Stack, useRouter } from "expo-router";
 
 import {COLORS, icons, images, SIZES} from '../constants';
 import {Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome} from "../components";
+import { color } from "react-native-reanimated";
 
 const Home = () => {
     const router = useRouter();
@@ -15,12 +16,12 @@ const Home = () => {
                     headerStyle: { backgroundColor: COLORS.lightWhite},
                     headerShadowVisible: false,
                     headerLeft: () => (
-                        <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%"/>
+                        <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />
                     ),
                     headerRight: () => (
                         <ScreenHeaderBtn iconUrl={images.profile} dimension="100%"/>
                     ),
-                    headerTitle: ""
+                    headerTitle: "",
                 }}
             />
             <ScrollView showsVerticalScrollIndicator={false}>

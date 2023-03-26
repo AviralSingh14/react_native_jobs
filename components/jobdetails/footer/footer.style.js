@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     padding: SIZES.small,
-    backgroundColor: "#FFF",
+    backgroundColor: COLORS.lightWhite,
     justifyContent: "space-between",
     alignItems: "center",
     flexDirection: "row",
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     width: 55,
     height: 55,
     borderWidth: 1,
-    borderColor: "#F37453",
+    borderColor: "red",
     borderRadius: SIZES.medium,
     justifyContent: "center",
     alignItems: "center",
@@ -26,11 +26,11 @@ const styles = StyleSheet.create({
   likeBtnImage: {
     width: "40%",
     height: "40%",
-    tintColor: "#F37453",
+    tintColor: "red",
   },
   applyBtn: {
     flex: 1,
-    backgroundColor: "#FE7654",
+    backgroundColor: COLORS.primary,
     height: "100%",
     justifyContent: "center",
     alignItems: "center",
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   },
   applyBtnText: {
     fontSize: SIZES.medium,
-    color: COLORS.white,
+    color: COLORS.card,
     fontFamily: FONT.bold,
   },
 });

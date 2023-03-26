@@ -6,16 +6,15 @@ const styles = StyleSheet.create({
   container: (selectedJob, item) => ({
     width: 250,
     padding: SIZES.xLarge,
-    backgroundColor: selectedJob === item.job_id ? COLORS.primary : "#FFF",
+    backgroundColor: selectedJob === item.job_id ? COLORS.card : COLORS.card,
     borderRadius: SIZES.medium,
     justifyContent: "space-between",
     ...SHADOWS.medium,
-    shadowColor: COLORS.white,
   }),
   logoContainer: (selectedJob, item) => ({
     width: 50,
     height: 50,
-    backgroundColor: selectedJob === item.job_id ? "#FFF" : COLORS.white,
+    backgroundColor: selectedJob === item.job_id ? "#FFF" : COLORS.primary,
     borderRadius: SIZES.medium,
     justifyContent: "center",
     alignItems: "center",
